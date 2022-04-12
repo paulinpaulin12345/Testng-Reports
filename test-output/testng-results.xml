@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29540" started-at="2022-04-07T22:40:06 IST" finished-at="2022-04-07T22:40:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29540" started-at="2022-04-07T22:40:06 IST" finished-at="2022-04-07T22:40:35 IST">
+      <class name="com.testing.features.Adactin_Tng">
+        <test-method status="PASS" signature="report_Generation()[pri:0, instance:com.testing.features.Adactin_Tng@5d018107]" name="report_Generation" is-config="true" duration-ms="2461" started-at="2022-04-07T22:40:06 IST" finished-at="2022-04-07T22:40:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report_Generation -->
+        <test-method status="PASS" signature="Browser_Launch()[pri:0, instance:com.testing.features.Adactin_Tng@5d018107]" name="Browser_Launch" is-config="true" duration-ms="6688" started-at="2022-04-07T22:40:08 IST" finished-at="2022-04-07T22:40:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="FAIL" signature="select_Hotel()[pri:0, instance:com.testing.features.Adactin_Tng@5d018107]" name="select_Hotel" duration-ms="8055" started-at="2022-04-07T22:40:15 IST" finished-at="2022-04-07T22:40:23 IST">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.testing.features.Adactin_Tng.select_Hotel() didn't finish within the time-out 8000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.testing.features.Adactin_Tng.select_Hotel() didn't finish within the time-out 8000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Hotel -->
+        <test-method status="PASS" signature="browser_Inf()[pri:0, instance:com.testing.features.Adactin_Tng@5d018107]" name="browser_Inf" is-config="true" duration-ms="4" started-at="2022-04-07T22:40:23 IST" finished-at="2022-04-07T22:40:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Inf -->
+        <test-method status="PASS" signature="Browser_Launch()[pri:0, instance:com.testing.features.Adactin_Tng@5d018107]" name="Browser_Launch" is-config="true" duration-ms="2098" started-at="2022-04-07T22:40:23 IST" finished-at="2022-04-07T22:40:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="FAIL" signature="select_Hotel2()[pri:1, instance:com.testing.features.Adactin_Tng@5d018107]" name="select_Hotel2" duration-ms="8036" started-at="2022-04-07T22:40:25 IST" finished-at="2022-04-07T22:40:33 IST">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.testing.features.Adactin_Tng.select_Hotel2() didn't finish within the time-out 8000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.testing.features.Adactin_Tng.select_Hotel2() didn't finish within the time-out 8000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Hotel2 -->
+        <test-method status="PASS" signature="browser_Inf()[pri:0, instance:com.testing.features.Adactin_Tng@5d018107]" name="browser_Inf" is-config="true" duration-ms="7" started-at="2022-04-07T22:40:33 IST" finished-at="2022-04-07T22:40:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Inf -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:com.testing.features.Adactin_Tng@5d018107]" name="flush" is-config="true" duration-ms="2038" started-at="2022-04-07T22:40:33 IST" finished-at="2022-04-07T22:40:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- com.testing.features.Adactin_Tng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
